@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NHJBBMPH');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta property="og:title" content="마루는 강쥐" />
+    <meta property="og:description" content="나 카페 사장됐다? 짱이지!" />
+    <meta property="og:image" content="https://multcafe.nexturecorp.com/images/common/thumbnail.png" />
+    <meta property="og:url" content="https://multcafe.nexturecorp.com/index.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/common/favicon.png" />
+    <link rel="shortcut icon" href="/images/common/favicon.ico" type="image/x-icon">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.bpop.js"></script>
+    <script src="js/gsap.js"></script>
+    <script src="js/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <title>마루는 강쥐</title>
+</head>
+
+<script type="text/javascript">
+    window.onload=function deviceCheck() {
+
+        const user = navigator.userAgent;
+
+        if ( user.indexOf("iPhone") > -1 || user.indexOf("Android") > -1 ) {
+            //모바일 일때 
+            location.href = '/mobile/index.html';
+        }else{
+            //PC 일때
+  
+        }
+    }
+</script>
+ <!-- Google tag (gtag.js) --> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-61WVX6RE8K"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-61WVX6RE8K'); </script>
+<!-- Meta Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '598843413265082');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=598843413265082&ev=PageView&noscript=1"/></noscript>
+    <!-- End Meta Pixel Code -->
+
+ <script>
+    function clickTag(action_label){
+        gtag('event', 'button_click', {
+            'event_category': 'user_action',
+            'event_label': action_label,
+        }); 
+    }
+ </script>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHJBBMPH"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="fullpage">
+        <section class="section">
+            <div class="logo_box">
+                <a href="javascript:;" class="logo"><img src="images/common/logo.png" alt="logo"></a>
+                <ul class="sns_ul">
+                    <li><a href="https://cafe.naver.com/maruultimatecafe" target="_blank"><img src="images/common/icon_naver.png" alt="naver" onclick="clickTag('naver_cafe')"></a></li>
+                    <li><a href="https://www.instagram.com/maru_ultimate_cafe" target="_blank"><img src="images/common/icon_insta.png" onclick="clickTag('instagram')" alt="instagram"></a></li>
+                    <li><a href="https://www.youtube.com/@maru_ultimate_cafe" target="_blank"><img src="images/common/icon_ytb.png" onclick="clickTag('youtube')" alt="youtube"></a></li>
+                </ul>
+            </div>
+            <a href="javascript:;" class="present"><img src="images/common/present.png" alt="사전예약 추가 선물"></a>
+            <div class="copyright"><img src="images/common/copyright.png" alt="Copyright © NEXTURE Corporation. All Rights Reserved.
+                Original Comics from NAVER WEBTOON™ ⓒ모죠(Mojo)"></div>
+            <div class="use_box">
+                <a href="https://nexturecorp.com/terms/privacy" target="_blank"><img src="images/common/privacy.png" alt="개인정보 처리방침"></a>
+                <a href="https://nexturecorp.com/terms/service" target="_blank"><img src="images/common/terms.png" alt="이용약관"></a>
+            </div>
+            <!-- page1 -->
+            <div class="page_wrap">
+                <div class="page page1" id="page1">
+                    <div class="bg"></div>
+                    <div class="page_inner">
+                        <div class="motion_wrap">
+                            <div class="arrow"><span class="sr-only">화살표</span></div>
+                            <div class="maru" data-maru="1"><span class="sr-only">마루</span>
+                                <div class="maru_png"></div>
+                                <div class="maru_gif"></div>
+                                <div class="icon_ytb" onclick="clickTag('main_video')"><span class="sr-only">유튜브</span></div>
+                            </div>
+                            <div class="maru_gif_preload"></div>
+                        </div>
+                        <div class="obj cafe_prev"><span class="sr-only">카페</span></div>
+                        <div class="obj cafe"><span class="sr-only">카페</span></div>
+                        <div class="obj dust"><span class="sr-only">먼지</span></div>
+                        <div class="obj dust_left"><span class="sr-only">먼지</span></div>
+                        <div class="obj dust_right"><span class="sr-only">먼지</span></div>
+                        <div class="obj maru_txt"><img src="images/page1/txt.png" alt="마루가 짱 쎈 카페사장이 됐다고?"></div>
+                    </div>
+                </div>
+                <!-- page2 -->
+                <div class="page page2" id="page2">
+                    <div class="bg"></div>
+                    <div class="page_inner">
+                        <div class="motion_wrap">
+                            <div class="arrow"><span class="sr-only">화살표</span></div>
+                            <div class="maru" data-maru="2"><span class="sr-only">마루</span>
+                                <div class="maru_png"></div>
+                                <div class="maru_gif"></div>
+                                <div class="icon_talk"><span class="sr-only">사전예약 버튼 꾸욱~</span></div>
+                            </div>
+                        </div>
+                        <div class="obj tit_day"><img src="images/page2/tit_day.png" alt="사전예약"></div>
+                        <div class="obj reward">
+                            <img src="images/page2/reward.png" alt="사전예약 보상">
+                            <div class="obj bling">
+                                <div class="obj top">
+                                    <img src="images/page2/bling_top1.png" class="top1"alt="bling">
+                                    <img src="images/page2/bling_top2.png" class="top2"alt="bling">
+                                    <img src="images/page2/bling_top3.png" class="top3"alt="bling">
+                                </div>
+                                <div class="obj left">
+                                    <img src="images/page2/bling_left1.png" class="left1" alt="bling">
+                                    <img src="images/page2/bling_left2.png" class="left2" alt="bling">
+                                    <img src="images/page2/bling_left3.png" class="left3" alt="bling">
+                                    <img src="images/page2/bling_left4.png" class="left4" alt="bling">
+                                </div>
+                                <div class="obj right">
+                                    <img src="images/page2/bling_right1.png" class="right1" alt="bling">
+                                    <img src="images/page2/bling_right2.png" class="right2" alt="bling">
+                                    <img src="images/page2/bling_right3.png" class="right3" alt="bling">
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="javascript:;" class="obj note"><img src="images/page2/note.png" alt="사전예약 유의사항"></a>
+                        <div class="obj sns">
+                            <ul class="sns_ul">
+                                <li><a href="https://play.google.com/store/apps/details?id=com.nexturecorp.maru" class="sns_li" target="_blank">
+                                        <img src="images/page2/google.png" onclick="clickTag('google_registration')" alt="google">
+                                    </a>
+                                </li>
+                                <li><a href="https://apps.apple.com/kr/app/id6478101269" class="sns_li app disabled-link" target="_blank">
+                                    <img src="images/page2/appstore.png" onclick="clickTag('apple_registration');" alt="appstore">
+                                    </a>
+                                </li>
+                                <li><a href="http://pf.kakao.com/_zhRrn" class="sns_li" target="_blank">
+                                    <img src="images/page2/kakao.png" onclick="clickTag('plus_chtalk')" alt="kakaotalk">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="bubble"><img src="images/page2/bubble.png" alt="말풍선"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- page3 -->
+                <div class="page page3" id="page3">
+                    <div class="bg"></div>
+                    <div class="page_inner">
+                        <div class="motion_wrap">
+                            <div class="arrow"><span class="sr-only">화살표</span></div>
+                            <div class="maru" data-maru="3"><span class="sr-only">마루</span>
+                                <div class="maru_png"></div>
+                                <div class="maru_gif"></div>
+                            </div>
+                        </div>
+                        <div class="obj tit_event"><img src="images/page3/tit_event.png" alt="달성 이벤트"></div>
+                        <div class="obj tit_event2"><img src="images/page3/tit_event2.png" alt="사전예약 달성마다 짱 센 보상이 마구마구!"></div>
+                        <!--미션 달성시 money active class 추가-->
+                        <div class="obj money money1">
+                            <span class="sr-only">10만</span>
+                            <div class="obj bling">
+                                <div class="obj left">
+                                    <img src="images/page3/bling_left1.png" class="left1"alt="bling">
+                                    <img src="images/page3/bling_left2.png" class="left2"alt="bling">
+                                    <img src="images/page3/bling_left3.png" class="left3"alt="bling">
+                                    <img src="images/page3/bling_left4.png" class="left4"alt="bling">
+                                    <img src="images/page3/bling_left5.png" class="left5"alt="bling">
+                                    <img src="images/page3/bling_left6.png" class="left6"alt="bling">
+                                </div>              
+                            </div>
+                        </div>
+                        <div class="obj money money2"><span class="sr-only">50만</span>
+                            <div class="obj bling">
+                                <div class="obj left">
+                                    <img src="images/page3/bling_middle1.png" class="middle1"alt="bling">
+                                    <img src="images/page3/bling_middle2.png" class="middle2"alt="bling">
+                                    <img src="images/page3/bling_middle3.png" class="middle3"alt="bling">
+                                    <img src="images/page3/bling_middle4.png" class="middle4"alt="bling">
+                                    <img src="images/page3/bling_middle5.png" class="middle5"alt="bling">
+                                    <img src="images/page3/bling_middle6.png" class="middle6"alt="bling">
+                                    <img src="images/page3/bling_middle7.png" class="middle7"alt="bling">
+                                </div>              
+                            </div>
+                        </div>
+                        <div class="obj money money3"><span class="sr-only">100만</span>
+                            <div class="obj bling">
+                                <div class="obj left">
+                                    <img src="images/page3/bling_right1.png" class="right1"alt="bling">
+                                    <img src="images/page3/bling_right2.png" class="right2"alt="bling">
+                                    <img src="images/page3/bling_right3.png" class="right3"alt="bling">
+                                    <img src="images/page3/bling_right4.png" class="right4"alt="bling">
+                                    <img src="images/page3/bling_right5.png" class="right5"alt="bling">
+                                    <img src="images/page3/bling_right6.png" class="right6"alt="bling">
+                                    <img src="images/page3/bling_right7.png" class="right6"alt="bling">
+                                </div>              
+                            </div>
+                        </div>
+                        <div class="obj money_txt"><img src="images/page3/note_txt.png" alt="본 아이템은 설치 시 매일매일 캐시를 주는 상품입니다."></div>
+                    </div>
+                </div>
+                <!-- page4 -->
+                <div class="page page4" id="page4">
+                    <div class="bg"></div>
+                    <div class="page_inner">
+                        <!-- 탭 메뉴 -->
+                        <div class="maru" data-maru="4"><span class="sr-only">마루</span>
+                            <div class="maru_png"></div>
+                            <div class="maru_gif"></div>
+                        </div>
+                        <div class="tab_wrap">
+                            <ul class="tab_ul">
+                                <li><a href="javascript:;" data-tab="1" class="tab tab1 on"><span class="sr-only">스토리</span></a></li>
+                                <li><a href="javascript:;" data-tab="2" class="tab tab2"><span class="sr-only">게임 소개</span></a></li>
+                                <li><a href="javascript:;" data-tab="3" class="tab tab3"><span class="sr-only">캐릭터 정보</span></a></li>
+                            </ul>
+                            <div class="tab_cont_wrap">
+                                <!--탭컨텐츠 1-->
+                                <div class="box box1 on">
+                                    <div class="box_cont">
+                                        <div class="box_head"><span class="sr-only">스토리</span></div>
+                                        <div class="feature">
+                                            <div class="f_tit"><span class="sr-only">함께 만들어가는 마루는 강쥐, 그 이후의 에피소드!</span></div>
+                                            <p><span class="sr-only">강아지에서 5살 어린이로 변신한 ‘마루’와 오늘도 정신없는 일상을 보내던 어느 날..!
+                                                유명 먹방 유튜버이자 추진력 만렙인 내 친구 ‘하마희’가 갑자기 카페 계약서를 들고 찾아왔다.<br>
+                                                “울~! 나 카페 계약했어! 도와줄 거지? 마루의 귀여움으로 대박 한 번 내보자고!” 짱 센 마루와 함께하는 우당탕 카페 경영 이야기! <br>
+                                                지금 게임으로 만나보세요!</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--탭컨텐츠2-->
+                                <div class="box box2">
+                                    <div class="box_cont">
+                                        <div class="box_head"><span class="sr-only">게임 특징</span></div>
+                                        <div class="swiper2">
+                                            <div class="slide swiper-wrapper">
+                                                <div class="f_img swiper-slide"><img src="images/page4/f_img1.png" alt="image1"></div>
+                                                <div class="f_img swiper-slide"><img src="images/page4/f_img2.png" alt="image2"></div>
+                                                <div class="f_img swiper-slide"><img src="images/page4/f_img3.png" alt="image3"></div>
+                                                <div class="f_img swiper-slide"><img src="images/page4/f_img4.png" alt="image4"></div>
+                                                <div class="f_img swiper-slide"><img src="images/page4/f_img5.png" alt="image5"></div>
+                                                <div class="f_img swiper-slide"><img src="images/page4/f_img6.png" alt="image6"></div>
+                                                <div class="f_img swiper-slide"><img src="images/page4/f_img7.png" alt="image7"></div>
+                                            </div>
+                                            <div class="swiper-pagination"></div>
+                                            
+<!--
+                                            <div class="swiper-button-prev"></div>
+                                            <div class="swiper-button-next"></div>
+-->
+                                        </div>
+                                        <div class="btn_wrap btn_wrap2">
+                                            <button class="btn btn_prev"><span class="sr-only">이전</span></button>
+                                            <button class="btn btn_next"><span class="sr-only">다음</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box box3">
+                                    <div class="box_cont">
+                                        <div class="maru_picture"><img src="images/page4/maru_picture.png" alt=""></div>
+                                        <div class="box_head"><span class="sr-only">캐릭터 정보</span></div>
+                                        <a href="https://cafe.naver.com/maruultimatecafe" class="memo" target="_blank"><img src="images/page4/memo.png" alt="마루의 초대장"></a>
+                                        <div class="swiper3">
+                                            <div class="slide swiper-wrapper">
+                                                <div class="person p1 swiper-slide">
+                                                    <div class="inner">
+                                                        <ul class="inform_ul">
+                                                            <li><span class="sr-only">좋아하는 것 :언니, 고구마, 꼬린내, 산책 </span></li>
+                                                            <li><span class="sr-only">싫어하는 것 :병원 가기, 목욕하기</span></li>
+                                                        </ul>
+                                                        <div class="txt"><span class="sr-only">마루 카페 사장 됐다? 엣헴<br>사장이 뭔지는 모르겠는데 언니가 짱 쎈 거래.<br>카페에 있으면 언니가 맛있는 것도 만들어 준다~?<br>이 고구마를 봐, 대박임.</span></div>
+                                                        <div class="txt"><span class="sr-only">손님이 많아지면 더 재밌겠지?<br>마루랑 같이 짱 쎈 사장 할 사람?!</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="person p2 swiper-slide">
+                                                    <div class="inner">
+                                                        <ul class="inform_ul">
+                                                            <li><span class="sr-only">직업 : 프리랜서 영상 편집자</span></li>
+                                                            <li><span class="sr-only">좋아하는 것 : 마루, 강아지, 드라마 시청</span></li>
+                                                            <li><span class="sr-only">싫어하는 것 : 혼자 있기, 벌레</span></li>
+                                                        </ul>
+                                                        <div class="txt"><span class="sr-only">마루가 세상에서 제일 좋아하는 언니! <br>
+                                                            언니도 나를 제일 좋아해서<br>
+                                                            같이 오래 있으려고 카페를 시작했대.<br>
+                                                            카페에선 항상 맛있는 냄새가 나서 좋아! 킁킁<br>
+                                                            침 흘리고 있으면 언니가 간식도 줘. 나도 언니 마니마니 도와 줄게.</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="person p3 swiper-slide">
+                                                    <div class="inner">
+                                                        <ul class="inform_ul">
+                                                            <li><span class="sr-only">직업:요리사</span></li>
+                                                            <li><span class="sr-only">좋아하는 것:낮잠, 요리, 휴식</span></li>
+                                                            <li><span class="sr-only">싫어하는 것:소음, 더러운 집</span></li>
+                                                        </ul>
+                                                        <div class="txt"><span class="sr-only">문제가 생기면 해결해주는 임주스.<br>
+                                                            주스네 가게에도 맛있는 게 많아.<br>
+                                                            그리고 언니랑 마루한테 무슨 일이 생기면<br>
+                                                            임주스가 제일 먼저 달려와.<br> 
+                                                            이웃끼리는 돕고 사는거래!</span>
+                                                        </div>
+                                                        <div class="txt"><span class="sr-only">오늘은 마루가 주운 멋있는 돌 보여줘야지.</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="person p4 swiper-slide">
+                                                    <div class="inner">
+                                                        <ul class="inform_ul">
+                                                            <li><span class="sr-only">직업:먹방 너튜버 (278만)</span></li>
+                                                            <li><span class="sr-only">좋아하는 것:맛집 탐방, 노래방, 소품숍</span></li>
+                                                            <li><span class="sr-only">싫어하는 것:공복, 머리 아픈 일</span> </li>
+                                                        </ul>
+                                                        <div class="txt"><span class="sr-only">내가 두 번째로 좋아하는 언니.<br>
+                                                            마희 언니랑 있으면 맛있는 거 먹을 수 있어. <br>
+                                                            그리고 손님들이 마희 언니가 오면 엄청 좋아해.<br>
+                                                            막 사진도 찍어감. 인기 대박임.</span>
+                                                        </div>
+                                                        <div class="txt"><span class="sr-only">나도 마희 언니가 마루 햄버거 10개 <br>
+                                                            먹는 거 보고싶어! 매일매일 와줘~!</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="person p5 swiper-slide">
+                                                    <div class="inner">
+                                                        <ul class="inform_ul">
+                                                            <li><span class="sr-only">직업:유치원 교사</span></li>
+                                                            <li><span class="sr-only">좋아하는 것:동물, 아이, 귀여운 인형</span></li>
+                                                            <li><span class="sr-only">싫어하는 것:귀신, 어두운 곳</span></li>
+                                                        </ul>
+                                                        <div class="txt"><span class="sr-only">세상에서 제일 센 최강 대장!<br>
+                                                            사람들은 대장의 인상만 보고 무서워하지만<br>
+                                                            마루는 대장이 좋아.<br>
+                                                            대장이 만드는 인형은 물어 뜯기에 딱이거든.<br>
+                                                            다음에도 좋은 거 많이 만들어 줘, 대장!</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-pagination"></div>
+
+                                        </div>
+                                        <div class="btn_wrap btn_wrap3">
+                                            <button class="btn btn_prev"><span class="sr-only">이전</span></button>
+                                            <button class="btn btn_next"><span class="sr-only">다음</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- 팝업 -->
+    <div class="pop pop1 hide">
+        <a href="javascript:;" class="b-close btn_close"></a>
+        <div class="pop_inner">
+            <!-- <div class="pop_tit"><img src="images/pop/pop_head.png" alt="사전예약 추가 선물"></div>
+            <ul class="present_ul">
+                <li>
+                    <div class="tit"><img src="images/pop/pop_tit1.png" alt="사전예약자 달성 보상"></div>
+                    <div class="present_img"><img src="images/pop/pop_img1.png" alt="황금 별가루 소원 분수대"></div>
+                </li>
+                <li>
+                    <div class="tit"><img src="images/pop/pop_tit2.png" alt="톡채널 추가 시 보상"></div>
+                    <div class="present_img"><img src="images/pop/pop_img2.png" alt="동요마루 프로필프레임+이미지set"></div>
+                </li>
+            </ul>
+            <div class="underline_img"><img src="images/pop/pop_img3.png" alt="더 많은 경품과 소식은 커뮤니티에서 만나보세요!"></div> -->
+        </div>
+     </div>
+    <div class="pop pop2 hide">
+        <a href="javascript:;" class="b-close btn_close"></a>
+        <div class="pop_inner">
+            <div class="ytb_wrap">
+                <div class="ytb_inner">
+                    <iframe src="https://www.youtube.com/embed/S3CKn4sRUxw?si=gVU8cUPKAUFhKccx" frameborder="0" autoplay></iframe>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div class="pop pop3 hide">
+        <a href="javascript:;" class="b-close btn_close"></a>
+        <div class="pop_inner">
+            <div class="pop_tit"><img src="images/pop/pop_head2.png" alt="참여 방법 및 유의사항"></div>
+            <div class="pop_txt"><img src="images/pop/pop_txt.png" alt="참여 방법 및 유의사항"></div>
+            <ul class="note_ul">
+                <li>
+                    <div class="note_tit"><span class="sr-only">1. 참여 방법</span></div>
+                    <div class="note_txt">
+                        <p><span class="sr-only">사전예약 선물을 100% 받을 수 있는 방법!</span> </p>
+                        <ul class="txt_blue">
+                            <li><span class="sr-only">STEP 1. Google Play 또는 App Store에서 사전예약</span></li>
+                            <li><span class="sr-only">STEP 2. 게임 출시 후, 접속 시 우편함으로 사전예약 선물 지급</span></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="note_tit"><span class="sr-only">1. 유의사항</span></div>
+                    <div class="note_txt">
+                        <p><span class="sr-only"><span>1&#41;</span>두 스토어 모두 사전예약을 하더라도, 사전예약 선물은 게임 계정당 1회만 지급돼요.</span></p>
+                        <p><span class="sr-only"><span>2&#41;</span>사전예약 참여 방법, 일정, 보상 등은 사정에 따라 별도 안내 없이 변경될 수 있어요.</span></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+     </div>
+     <div class="pop pop4 hide">
+        <a href="javascript:;" class="b-close btn_close"></a>
+        <div class="pop_inner">
+            <div class="delay"><img src="images/pop/delay.png" alt="지연"></div>
+        </div>
+     </div>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
